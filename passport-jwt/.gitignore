@@ -1,0 +1,30 @@
+# Node modules (don’t push installed packages)
+node_modules/
+
+# Environment variables (JWT secret, DB password)
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional build folders (if using build tools)
+dist/
+build/
+
+# VS Code settings
+.vscode/
+
+# Coverage reports (if testing)
+coverage/
+
+# npm package lock (optional)
+package-lock.json
+yarn.lock
